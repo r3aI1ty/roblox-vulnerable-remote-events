@@ -17,10 +17,13 @@ Detect common vulnerable remote events
 
 **Name**
 This field will contain the name of the remote.
+
 **Description**
 This field will contain the information which regards why the remote is/was vulnerable.
+
 **Alias**
 This will contain aliases for the remote in-case of any renaming that occurs.
+
 **Blacklist**
 This will contain games that have patched this remote and should be ignored in the scan.
 
