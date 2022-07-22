@@ -8,21 +8,21 @@ Detect common vulnerable remote events
 2. Use the format below to properly write your submission:
 ```
 {
-	"Name": "Remote Name",
-	"Description": "
-	"Alias": {},
-	"Blacklist": {},
+    "Name": "Remote Name",
+    "Description": "
+    "Alias": {},
+    "Blacklist": {},
 }
 ```
 
-	**Name**
-	This field will contain the name of the remote.
-	**Description**
-	This field will contain the information which regards why the remote is/was vulnerable.
-	**Alias**
-	This will contain aliases for the remote in-case of any renaming that occurs.
-	**Blacklist**
-	This will contain games that have patched this remote and should be ignored in the scan.
+**Name**
+This field will contain the name of the remote.
+**Description**
+This field will contain the information which regards why the remote is/was vulnerable.
+**Alias**
+This will contain aliases for the remote in-case of any renaming that occurs.
+**Blacklist**
+This will contain games that have patched this remote and should be ignored in the scan.
 
 3. In the **`proof-of-concepts`** folder, make a `.lua` file with the same name as the previous file.
 	- Paste in your Proof of Concept code which makes this remote vulnerable.
