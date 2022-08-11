@@ -1,0 +1,25 @@
+{
+    "AC6_FE_Sounds":
+    {
+        "Source": {
+            "Author": "TheePBHST",
+            "Experience ID": 0,
+            "Experience Only": true
+        },
+        "Description": "Allows the attacker to manipulate sound objects made with the remote.",
+        "Concept Code": "AC6_FE_Sounds.lua",
+        "Alias": {},
+        "Blacklist": {}
+    },
+    "event4": {
+        "Source": {
+            "Author": "TheePBHST",
+            "Experience ID": 5036564017,
+            "Experience Only": true
+        },
+        "Description": "Allows the attacker to stun (a) specific player(s).",
+        "Concept Code": "event4.lua",
+        "Alias": {},
+        "Blacklist": {}
+    }
+}
